@@ -10,7 +10,6 @@ import banner from "../assets/banner.png"
 const StyledBanner = styled(Flex)`
     width: 100%;
     height: 688px;
-    margin-left: 120px;
 `;
 
 const StyledH1 = styled.h1`

@@ -10,6 +10,7 @@ import BenefitsItem from "../components/BenefitsItem";
 import SelectItem from "../components/SelectItem";
 import Mailing from "../components/Mailing";
 import Mail from "../components/Mail";
+import Footer from "../components/Footer";
 
 import b1 from "../assets/BenefitsItem1.png";
 import b2 from "../assets/BenefitsItem2.png";
@@ -19,10 +20,9 @@ import m1 from "../assets/mod1.png";
 import m2 from "../assets/mod2.png";
 import m3 from "../assets/mod3.png";
 import fly from "../assets/fly.png";
-import Footer from "../components/Footer";
 
 const StyledApp = styled(Flex)`
-  padding: 0 250px;
+  max-width: 1400px;
   background-color: #09001C;
   color: #FFFFFF;
 `

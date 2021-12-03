@@ -6,7 +6,6 @@ import Flex from "./Flex";
 import Nav from "./Nav";
 
 const StyledHeader = styled(Flex)`
-   
 `
 
 const Header = ( props ) => {

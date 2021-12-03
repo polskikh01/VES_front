@@ -22,7 +22,7 @@ import m3 from "../assets/mod3.png";
 import fly from "../assets/fly.png";
 
 const StyledApp = styled(Flex)`
-  max-width: 1400px;
+  width: 100%;
   background-color: #09001C;
   color: #FFFFFF;
 `

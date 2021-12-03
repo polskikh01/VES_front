@@ -11,6 +11,7 @@ import {Link} from "react-router-dom";
 const StyledBanner = styled(Flex)`
     width: 100%;
     height: 688px;
+    padding-left: 250px;
 `;
 
 const StyledH1 = styled.h1`

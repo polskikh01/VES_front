@@ -74,7 +74,7 @@
 
 ## Для запуска Unity приложения используется компилятор
 
-###Разработчики: 
+### Разработчики:  
 - https://t.me/hy_dro
 - https://t.me/Polskih01
 - https://t.me/HzAjaxich

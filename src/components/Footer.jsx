@@ -15,9 +15,7 @@ const Footer = (props) => {
                 <Flex
                     direction="column"
                 >
-                    1
-                    2
-                    3
+                    О нас
                 </Flex>
                 <Flex
                     direction="column"

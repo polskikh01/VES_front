@@ -6,6 +6,9 @@ import logo from "../assets/logo.svg";
 
 import Flex from "./Flex";
 
+import {Link} from 'react-router-dom';
+
+
 const StyledNav = styled(Flex)`
   height: 162px;
 `;
@@ -38,6 +41,10 @@ const StyledA = styled.a`
   font-size: 1.125em;
   line-height: 1.3125em;
 `
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: #FFFFFF;
+`
 
 const Nav = (props) => {
     return (
@@ -47,7 +54,7 @@ const Nav = (props) => {
         >
             <StyledUl>
                 <StyledLi align="center" mr="25px"><StyledA href={"#benefits"}>Преимущества</StyledA></StyledLi>
-                <StyledLi align="center" ml="25px" mr="100px"><StyledA href={"#"}>Тренажёр</StyledA></StyledLi>
+                <StyledLi align="center" ml="25px" mr="100px"><StyledA><StyledLink to="/education">Тренажёр</StyledLink></StyledA></StyledLi>
                 <img src={logo} alt="logo" />
                 <StyledLi align="center" ml="100px" mr="25px"><StyledA href={"#mode"}>Режим работы</StyledA></StyledLi>
                 <StyledLi align="center" ml="25px"><StyledA href={"mail"}>Контакты</StyledA></StyledLi>

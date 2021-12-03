@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter} from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+} from "react-router-dom";
 
 import {createGlobalStyle} from 'styled-components';
 
 import App from './containers/App';
+import Education from "./containers/Education";
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -18,9 +23,13 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 ReactDOM.render(
-    <BrowserRouter>
+    <Router>
         <GlobalStyle/>
-        <App/>
-    </BrowserRouter>,
+        <Routes>
+            <Route exact path="/" element={<App/>}/>
+            <Route path="/education" element={<Education/>}/>
+        </Routes>
+
+    </Router>,
     document.getElementById('root')
 );

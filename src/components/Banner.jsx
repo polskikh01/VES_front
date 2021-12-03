@@ -6,6 +6,7 @@ import Flex from "./Flex";
 import Button from "./Button";
 
 import banner from "../assets/banner.png"
+import {Link} from "react-router-dom";
 
 const StyledBanner = styled(Flex)`
     width: 100%;
@@ -40,6 +41,11 @@ const StyledBannerImg = styled.img`
   z-index: 0;
 `;
 
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: #FFFFFF;
+`
+
 const Banner = (props) => {
     return (
         <StyledBanner
@@ -53,7 +59,8 @@ const Banner = (props) => {
                 height="50px"
                 mb="225px"
             >
-                Запустить тренажёр
+                <StyledLink to="/education">Запустить тренажёр</StyledLink>
+
             </Button>
             <StyledBannerImg src={banner} alt="Banner" />
         </StyledBanner>

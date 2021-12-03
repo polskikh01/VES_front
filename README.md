@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+## Реализованная функциональность 
+Реализованы 3 режима работы онлайн-тренажера для БПЛА:
+  - Обучение 
+  - Тренировка
+  - Экзамен
+  
+Для каждого режима предусмотрены подробные настройки условий вылета. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Тип местности: 
+- Болотистая 
+- Лесная 
+- Горная 
+- Речная
+- Островная
 
-## Available Scripts
+Тип погодных условий: 
+- Дождь
+- Снег 
+- Туман 
+- Ясная погода
 
-In the project directory, you can run:
+
+
+Реализовано веб-приложение онлайн-тренажера 
+
+## Особенности проекта
+- Поддержка VR-очков
+- Поддержка управления джойстиками(коптерного и самолетного типа)
+
+## Основной стек технологий 
+- C#
+- Unity3D 
+- JavaScript
+- Styled Components
+- Webpack, Babel
+- React
+
+## Демо
+Демо сервиса доступно по адресу: 
+
+#СРЕДА ЗАПУСКА
+1. развертывание сервиса производится на Windows10 (версии 120.2212.3920.0);
+2. требуется установленная менеджер пакетов Node.js (версия 14+);
+3. cреда разработки для C# и Unity3D.
+
+#УСТАНОВКА
+#Для сборки проекта используется приложение Unity 2020.3.15f2
+
+# Начало работы с приложением Create React
+
+Этот проект был загружен с [Create React App](https://github.com/facebook/create-react-app).
+
+## Доступные быстрые команды 
+
+В каталоге проекта вы можете запустить:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускает приложение в режиме разработки. \
+Откройте [http://localhost:3000](http://localhost:3000), чтобы просмотреть его в браузере.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Страница перезагрузится, если вы внесете правки. \
+Вы также увидите любые ошибки ворса в консоли.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Собирает приложение для производства в папку `build`. \
+Он правильно связывает React в производственном режиме и оптимизирует сборку для достижения максимальной производительности.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Сборка минифицирована, а имена файлов включают хеши. \
+Ваше приложение готово к развертыванию!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Смотрите здесь [deployment](https://facebook.github.io/create-react-app/docs/deployment) для получения подробной информации.
 
-### `yarn eject`
+## Для запуска Unity приложения используется компилятор
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+###Разработчики: 
+- https://t.me/hy_dro
+- https://t.me/Polskih01
+- https://t.me/HzAjaxich
+- https://t.me/chris_yuneva
+- https://t.me/Helen20001
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -16,16 +16,15 @@ const StyledButton = styled.button`
   position: ${props => props.position ? props.position : "static"};
   bottom: ${props => props.bottom};
   left: ${props => props.left};
-  pointer-events: ${props => props.pe ? props.pe : "none"};
+  //pointer-events: ${props => props.pe ? props.pe : "none"};
   cursor: pointer !important;
   
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.0456);
     transition: transform .7s;
   }
 
   &:not(hover) {
-    transform: scale(1);
     transition: transform .7s;
   }
 `

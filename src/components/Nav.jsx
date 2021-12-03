@@ -47,9 +47,9 @@ const Nav = (props) => {
         >
             <StyledUl>
                 <StyledLi align="center" mr="25px"><StyledA href={"#benefits"}>Преимущества</StyledA></StyledLi>
-                <StyledLi align="center" ml="25px" mr="100px"><StyledA href={"#mode"}>Тренажёр</StyledA></StyledLi>
+                <StyledLi align="center" ml="25px" mr="100px"><StyledA href={"#"}>Тренажёр</StyledA></StyledLi>
                 <img src={logo} alt="logo" />
-                <StyledLi align="center" ml="100px" mr="25px"><StyledA href={"#"}>Режим работы</StyledA></StyledLi>
+                <StyledLi align="center" ml="100px" mr="25px"><StyledA href={"#mode"}>Режим работы</StyledA></StyledLi>
                 <StyledLi align="center" ml="25px"><StyledA href={"mail"}>Контакты</StyledA></StyledLi>
             </StyledUl>
         </StyledNav>

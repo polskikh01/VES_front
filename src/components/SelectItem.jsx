@@ -31,7 +31,7 @@ const SelectItem = (props) => {
                 bottom="0"
                 left="0"
                 br="0 10px 0 20px"
-                p="20px"
+                p="17px"
             >{props.text}</Button>
         </StyledSelectItem>
     )

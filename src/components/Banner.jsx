@@ -52,7 +52,6 @@ const Banner = (props) => {
                 width="265px"
                 height="50px"
                 mb="225px"
-                pe="auto"
             >
                 Запустить тренажёр
             </Button>

@@ -4,8 +4,12 @@ import styled from "styled-components";
 
 import Flex from "./Flex";
 
+import logo from "../assets/logoFooter.svg"
+
 const StyledFooter = styled(Flex)`
   width: 100%;
+  height: 270px;
+  padding-left: 250px;
 `;
 
 const StyledLabel = styled.span`
@@ -26,11 +30,18 @@ const StyledLi = styled.li`
   font-size: .875em;
   line-height: 17px;
   margin-bottom: 10px;
+  margin-top: ${props => props.mt ? props.mt : 0};
 `;
 
 const StyledA = styled.a`
   text-decoration: none;
   color: #FFFFFF;
+`;
+
+const StyledLogo = styled.img`
+  width: 135px;
+  height: 53px;
+  margin-bottom: 15px;
 `;
 
 const Footer = (props) => {
@@ -41,35 +52,46 @@ const Footer = (props) => {
             >
                 <Flex
                     direction="column"
-                    justify="center"
                 >
                     <StyledLabel>О нас</StyledLabel>
                     <StyledUl>
                         <StyledLi><StyledA href={"#"}>Информация</StyledA></StyledLi>
-                        <StyledLi>Информация 2</StyledLi>
-                        <StyledLi>Информация 3</StyledLi>
+                        <StyledLi><StyledA href={"#"}>Информация</StyledA></StyledLi>
+                        <StyledLi><StyledA href={"#"}>Информация</StyledA></StyledLi>
                     </StyledUl>
                 </Flex>
                 <Flex
                     direction="column"
                 >
-                    2
-                    3
-                    4
+                    <StyledLabel>Тренажер</StyledLabel>
+                    <StyledUl>
+                        <StyledLi><StyledA href={"#"}>Обучение</StyledA></StyledLi>
+                        <StyledLi><StyledA href={"#"}>Тренировка</StyledA></StyledLi>
+                        <StyledLi><StyledA href={"#"}>Экзамен</StyledA></StyledLi>
+                    </StyledUl>
                 </Flex>
                 <Flex
                     direction="column"
                 >
-                    3
-                    4
-                    5
+                    <StyledLabel>Контакты</StyledLabel>
+                    <StyledUl>
+                        <StyledLi><StyledA href={"#"}>+7 (777) 777-77-77</StyledA></StyledLi>
+                        <StyledLi><StyledA href={"#"}>inbox@rosseti.ru</StyledA></StyledLi>
+                    </StyledUl>
                 </Flex>
             </Flex>
             <Flex
                 direction="column"
                 mt="45px"
+                ml="30px"
             >
-                123
+                <StyledLogo src={logo} alt="Logo" />
+                <StyledUl>
+                    <StyledLi><StyledA href={"#"}>Условия и положения</StyledA></StyledLi>
+                    <StyledLi><StyledA href={"#"}>Политика конфиденциальности</StyledA></StyledLi>
+                    <StyledLi><StyledA href={"#"}>Прочие политики</StyledA></StyledLi>
+                    <StyledLi><StyledA href={"#"}>Copyright © NAME 2021 | All Rights Reserved</StyledA></StyledLi>
+                </StyledUl>
             </Flex>
         </StyledFooter>
     )

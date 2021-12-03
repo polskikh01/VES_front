@@ -11,6 +11,7 @@ const StyledFlex = styled.div`
   flex: ${(props) => props.flex || "1 1 0%"};
   margin-top: ${props => props.mt ? props.mt : 0};
   margin-bottom: ${props => props.mb ? props.mb : 0};
+  margin-left: ${props => props.ml ? props.ml : 0};
 `;
 
 const Flex = (props) => {

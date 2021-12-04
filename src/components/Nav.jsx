@@ -53,11 +53,11 @@ const Nav = (props) => {
             { ...props }
         >
             <StyledUl>
-                <StyledLi align="center" mr="25px"><StyledA href={"#benefits"}>Преимущества</StyledA></StyledLi>
+                <StyledLi align="center" mr="25px"><StyledA href={"/#benefits"}>Преимущества</StyledA></StyledLi>
                 <StyledLi align="center" ml="25px" mr="100px"><StyledA><StyledLink to="/education">Тренажёр</StyledLink></StyledA></StyledLi>
                 <StyledLink to="/"><img src={logo} alt="logo" /></StyledLink>
-                <StyledLi align="center" ml="100px" mr="25px"><StyledA href={"#mode"}>Режим работы</StyledA></StyledLi>
-                <StyledLi align="center" ml="25px"><StyledA href={"#mail"}>Контакты</StyledA></StyledLi>
+                <StyledLi align="center" ml="100px" mr="25px"><StyledA href={"/#mode"}>Режим работы</StyledA></StyledLi>
+                <StyledLi align="center" ml="25px"><StyledA href={"/#mail"}>Контакты</StyledA></StyledLi>
             </StyledUl>
         </StyledNav>
     )
